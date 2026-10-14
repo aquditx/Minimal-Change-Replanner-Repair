@@ -1,0 +1,835 @@
+{
+ "name": "WK41 real plant (calibrated)",
+ "origin": "2026-10-02T00:00",
+ "horizon_h": 192.0,
+ "machines": [
+  {
+   "id": "ENGEL",
+   "family": "CAP",
+   "speed": 1.0
+  },
+  {
+   "id": "HYCAP1",
+   "family": "CAP",
+   "speed": 1.0
+  },
+  {
+   "id": "HYCAP2",
+   "family": "CAP",
+   "speed": 1.0
+  },
+  {
+   "id": "HYELECT1",
+   "family": "CAP",
+   "speed": 1.0
+  },
+  {
+   "id": "IMP01",
+   "family": "IMP",
+   "speed": 1.0
+  },
+  {
+   "id": "IMP02",
+   "family": "IMP",
+   "speed": 1.0
+  },
+  {
+   "id": "IMP07",
+   "family": "IMP",
+   "speed": 1.0
+  },
+  {
+   "id": "IMP12",
+   "family": "IMP",
+   "speed": 1.0
+  },
+  {
+   "id": "IMP19",
+   "family": "IMP",
+   "speed": 1.0
+  },
+  {
+   "id": "IMP24",
+   "family": "IMP",
+   "speed": 1.0
+  },
+  {
+   "id": "IMPS01",
+   "family": "SIPA",
+   "speed": 1.0
+  },
+  {
+   "id": "IMPS02",
+   "family": "SIPA",
+   "speed": 1.0
+  },
+  {
+   "id": "IMPS03",
+   "family": "SIPA",
+   "speed": 1.0
+  },
+  {
+   "id": "IMPS04",
+   "family": "SIPA",
+   "speed": 1.0
+  },
+  {
+   "id": "IMPS05",
+   "family": "SIPA",
+   "speed": 1.0
+  },
+  {
+   "id": "IMPS06",
+   "family": "SIPA",
+   "speed": 1.0
+  },
+  {
+   "id": "IMPS07",
+   "family": "SIPA",
+   "speed": 1.0
+  }
+ ],
+ "molds": [
+  {
+   "id": "M:52.0BC1RD-CL-G",
+   "product": "52.0BC1RD-CL-G",
+   "cavities": 24,
+   "rate": 18682.0,
+   "compatible": [
+    "IMP01",
+    "IMP02",
+    "IMP07",
+    "IMP12",
+    "IMP19",
+    "IMP24"
+   ],
+   "color": "Clear",
+   "resin": "CSD",
+   "neck": "BC"
+  },
+  {
+   "id": "M:51.0BC1RD-CL-S",
+   "product": "51.0BC1RD-CL-S",
+   "cavities": 16,
+   "rate": 13642.0,
+   "compatible": [
+    "IMP01",
+    "IMP02",
+    "IMP07",
+    "IMP12",
+    "IMP19",
+    "IMP24"
+   ],
+   "color": "Clear",
+   "resin": "CSD",
+   "neck": "BC"
+  },
+  {
+   "id": "M:18.0BC1RD-CL-S",
+   "product": "18.0BC1RD-CL-S",
+   "cavities": 24,
+   "rate": 21600.0,
+   "compatible": [
+    "IMP01",
+    "IMP02",
+    "IMP07",
+    "IMP12",
+    "IMP19",
+    "IMP24"
+   ],
+   "color": "Clear",
+   "resin": "CSD",
+   "neck": "BC"
+  },
+  {
+   "id": "M:34.0BC1EC-CL2-S",
+   "product": "34.0BC1EC-CL2-S",
+   "cavities": 24,
+   "rate": 17875.0,
+   "compatible": [
+    "IMP01",
+    "IMP02",
+    "IMP07",
+    "IMP12",
+    "IMP19",
+    "IMP24"
+   ],
+   "color": "Clear",
+   "resin": "CSD",
+   "neck": "BC"
+  },
+  {
+   "id": "M:34.0BC1EC-W2-S",
+   "product": "34.0BC1EC-W2-S",
+   "cavities": 24,
+   "rate": 17875.0,
+   "compatible": [
+    "IMP01",
+    "IMP02",
+    "IMP07",
+    "IMP12",
+    "IMP19",
+    "IMP24"
+   ],
+   "color": "White",
+   "resin": "CSD",
+   "neck": "BC"
+  },
+  {
+   "id": "M:12.7BC1EC-CL-S",
+   "product": "12.7BC1EC-CL-S",
+   "cavities": 32,
+   "rate": 25412.0,
+   "compatible": [
+    "IMP01",
+    "IMP02",
+    "IMP07",
+    "IMP12",
+    "IMP19",
+    "IMP24"
+   ],
+   "color": "Clear",
+   "resin": "CSD",
+   "neck": "BC"
+  },
+  {
+   "id": "M:13.5BC1RD-CL-G",
+   "product": "13.5BC1RD-CL-G",
+   "cavities": 32,
+   "rate": 31418.0,
+   "compatible": [
+    "IMP01",
+    "IMP02",
+    "IMP07",
+    "IMP12",
+    "IMP19",
+    "IMP24"
+   ],
+   "color": "Clear",
+   "resin": "CSD",
+   "neck": "BC"
+  },
+  {
+   "id": "M:52.0BC1RD-DB-Z",
+   "product": "52.0BC1RD-DB-Z",
+   "cavities": 24,
+   "rate": 18989.0,
+   "compatible": [
+    "IMP01",
+    "IMP02",
+    "IMP07",
+    "IMP12",
+    "IMP19",
+    "IMP24"
+   ],
+   "color": "DarkBlue",
+   "resin": "CSD",
+   "neck": "BC"
+  },
+  {
+   "id": "M:9.4TO2RD-BS6-B#1",
+   "product": "9.4TO2RD-BS6-B",
+   "cavities": 128,
+   "rate": 95294.0,
+   "compatible": [
+    "IMP12",
+    "IMPS01",
+    "IMPS02",
+    "IMPS03",
+    "IMPS04",
+    "IMPS05",
+    "IMPS06",
+    "IMPS07"
+   ],
+   "color": "Blue",
+   "resin": "SOFT",
+   "neck": "TO"
+  },
+  {
+   "id": "M:9.4TO2RD-BS6-B#2",
+   "product": "9.4TO2RD-BS6-B",
+   "cavities": 128,
+   "rate": 95294.0,
+   "compatible": [
+    "IMP12",
+    "IMPS01",
+    "IMPS02",
+    "IMPS03",
+    "IMPS04",
+    "IMPS05",
+    "IMPS06",
+    "IMPS07"
+   ],
+   "color": "Blue",
+   "resin": "SOFT",
+   "neck": "TO"
+  },
+  {
+   "id": "M:26.6TO2RD-CL-B",
+   "product": "26.6TO2RD-CL-B",
+   "cavities": 24,
+   "rate": 22153.0,
+   "compatible": [
+    "IMP12",
+    "IMPS01",
+    "IMPS02",
+    "IMPS03",
+    "IMPS04",
+    "IMPS05",
+    "IMPS06",
+    "IMPS07"
+   ],
+   "color": "Clear",
+   "resin": "WTR",
+   "neck": "TO"
+  },
+  {
+   "id": "M:30.5PC2RD-CLS-BH2",
+   "product": "30.5PC2RD-CLS-BH2",
+   "cavities": 48,
+   "rate": 43200.0,
+   "compatible": [
+    "IMP12",
+    "IMPS01",
+    "IMPS02",
+    "IMPS03",
+    "IMPS04",
+    "IMPS05",
+    "IMPS06",
+    "IMPS07"
+   ],
+   "color": "Clear",
+   "resin": "CSD",
+   "neck": "PC"
+  },
+  {
+   "id": "M:36.0BC1RD-CJ-S",
+   "product": "36.0BC1RD-CJ-S",
+   "cavities": 24,
+   "rate": 20945.0,
+   "compatible": [
+    "IMP01",
+    "IMP02",
+    "IMP07",
+    "IMP12",
+    "IMP19",
+    "IMP24"
+   ],
+   "color": "Clear",
+   "resin": "WTR",
+   "neck": "BC"
+  },
+  {
+   "id": "M:29-1.15-2TP-NB-A",
+   "product": "29-1.15-2TP-NB-A",
+   "cavities": 72,
+   "rate": 61714.0,
+   "compatible": [
+    "HYCAP1",
+    "HYCAP2",
+    "HYELECT1"
+   ],
+   "color": "Blue",
+   "resin": "HDPE",
+   "neck": "CAP"
+  },
+  {
+   "id": "M:29-1.15-2TP-HG-A",
+   "product": "29-1.15-2TP-HG-A",
+   "cavities": 72,
+   "rate": 61714.0,
+   "compatible": [
+    "HYCAP1",
+    "HYCAP2",
+    "HYELECT1"
+   ],
+   "color": "Green",
+   "resin": "HDPE",
+   "neck": "CAP"
+  },
+  {
+   "id": "M:29-1.35-2TWOL-AB-A",
+   "product": "29-1.35-2TWOL-AB-A",
+   "cavities": 96,
+   "rate": 89379.0,
+   "compatible": [
+    "HYCAP1",
+    "HYCAP2",
+    "HYELECT1"
+   ],
+   "color": "Blue",
+   "resin": "HDPE",
+   "neck": "CAP"
+  },
+  {
+   "id": "M:29-1.25-2TP-W1-A",
+   "product": "29-1.25-2TP-W1-A",
+   "cavities": 144,
+   "rate": 123420.0,
+   "compatible": [
+    "HYCAP1",
+    "HYCAP2",
+    "HYELECT1"
+   ],
+   "color": "White",
+   "resin": "HDPE",
+   "neck": "CAP"
+  },
+  {
+   "id": "M:29-1.25-2TP-CL-A",
+   "product": "29-1.25-2TP-CL-A",
+   "cavities": 144,
+   "rate": 123420.0,
+   "compatible": [
+    "HYCAP1",
+    "HYCAP2",
+    "HYELECT1"
+   ],
+   "color": "Clear",
+   "resin": "HDPE",
+   "neck": "CAP"
+  },
+  {
+   "id": "M:52.0BC1RD-CL-B",
+   "product": "52.0BC1RD-CL-B",
+   "cavities": 24,
+   "rate": 18682.0,
+   "compatible": [
+    "IMP01",
+    "IMP02",
+    "IMP07",
+    "IMP12",
+    "IMP19",
+    "IMP24"
+   ],
+   "color": "Clear",
+   "resin": "CSD",
+   "neck": "BC"
+  },
+  {
+   "id": "M:30.5PC2RD-CLR-V",
+   "product": "30.5PC2RD-CLR-V",
+   "cavities": 48,
+   "rate": 43200.0,
+   "compatible": [
+    "IMP12",
+    "IMPS01",
+    "IMPS02",
+    "IMPS03",
+    "IMPS04",
+    "IMPS05",
+    "IMPS06",
+    "IMPS07"
+   ],
+   "color": "Clear",
+   "resin": "RPET",
+   "neck": "PC"
+  },
+  {
+   "id": "M:26.6TO2RD-CL-A",
+   "product": "26.6TO2RD-CL-A",
+   "cavities": 32,
+   "rate": 25984.0,
+   "compatible": [
+    "IMP12",
+    "IMPS01",
+    "IMPS02",
+    "IMPS03",
+    "IMPS04",
+    "IMPS05",
+    "IMPS06",
+    "IMPS07"
+   ],
+   "color": "Clear",
+   "resin": "WTR",
+   "neck": "TO"
+  },
+  {
+   "id": "M:30.5PC2RD-CLS-A",
+   "product": "30.5PC2RD-CLS-A",
+   "cavities": 48,
+   "rate": 43200.0,
+   "compatible": [
+    "IMP12",
+    "IMPS01",
+    "IMPS02",
+    "IMPS03",
+    "IMPS04",
+    "IMPS05",
+    "IMPS06",
+    "IMPS07"
+   ],
+   "color": "Clear",
+   "resin": "CSD",
+   "neck": "PC"
+  },
+  {
+   "id": "M:45.0PC2RD-IGS-B",
+   "product": "45.0PC2RD-IGS-B",
+   "cavities": 32,
+   "rate": 29965.0,
+   "compatible": [
+    "IMP12",
+    "IMPS01",
+    "IMPS02",
+    "IMPS03",
+    "IMPS04",
+    "IMPS05",
+    "IMPS06",
+    "IMPS07"
+   ],
+   "color": "Green",
+   "resin": "CSD",
+   "neck": "PC"
+  },
+  {
+   "id": "M:7.45TO2RD-AJBS-B",
+   "product": "7.45TO2RD-AJBS-B",
+   "cavities": 128,
+   "rate": 99692.0,
+   "compatible": [
+    "IMP12",
+    "IMPS01",
+    "IMPS02",
+    "IMPS03",
+    "IMPS04",
+    "IMPS05",
+    "IMPS06",
+    "IMPS07"
+   ],
+   "color": "Blue",
+   "resin": "WTR",
+   "neck": "TO"
+  },
+  {
+   "id": "M:8.3TO2RD-LBS-A",
+   "product": "8.3TO2RD-LBS-A",
+   "cavities": 128,
+   "rate": 99694.0,
+   "compatible": [
+    "IMP12",
+    "IMPS01",
+    "IMPS02",
+    "IMPS03",
+    "IMPS04",
+    "IMPS05",
+    "IMPS06",
+    "IMPS07"
+   ],
+   "color": "Blue",
+   "resin": "WTR",
+   "neck": "TO"
+  },
+  {
+   "id": "M:12.5TO2RD-CLS-B",
+   "product": "12.5TO2RD-CLS-B",
+   "cavities": 96,
+   "rate": 86400.0,
+   "compatible": [
+    "IMP12",
+    "IMPS01",
+    "IMPS02",
+    "IMPS03",
+    "IMPS04",
+    "IMPS05",
+    "IMPS06",
+    "IMPS07"
+   ],
+   "color": "Clear",
+   "resin": "WTR",
+   "neck": "TO"
+  },
+  {
+   "id": "M:45.0PC2RD-CLS-B",
+   "product": "45.0PC2RD-CLS-B",
+   "cavities": 32,
+   "rate": 29965.0,
+   "compatible": [
+    "IMP12",
+    "IMPS01",
+    "IMPS02",
+    "IMPS03",
+    "IMPS04",
+    "IMPS05",
+    "IMPS06",
+    "IMPS07"
+   ],
+   "color": "Clear",
+   "resin": "CSD",
+   "neck": "PC"
+  }
+ ],
+ "orders": [
+  {
+   "id": "4100021951",
+   "product": "52.0BC1RD-DB-Z",
+   "qty": 216000.0,
+   "customer": "Hexa Plast for Plastic Industr",
+   "machine": "IMP01",
+   "start_day": 0,
+   "finish_day": 0,
+   "note": "",
+   "priority": 2
+  },
+  {
+   "id": "4100021974",
+   "product": "52.0BC1RD-CL-B",
+   "qty": 1920000.0,
+   "customer": "Almarai Company",
+   "machine": "IMP01",
+   "start_day": 0,
+   "finish_day": 7,
+   "note": "",
+   "priority": 3
+  },
+  {
+   "id": "2100001754",
+   "product": "13.5BC1RD-CL-G",
+   "qty": 1857024.0,
+   "customer": "SFG",
+   "machine": "IMP07",
+   "start_day": 1,
+   "finish_day": 3,
+   "note": "Mold Changeover on Sat, 03-Oct //  From 51.0BC To 13.5BC",
+   "priority": 1
+  },
+  {
+   "id": "2100001751",
+   "product": "34.0BC1EC-CL2-S",
+   "qty": 745200.0,
+   "customer": "SFG",
+   "machine": "IMP07",
+   "start_day": 4,
+   "finish_day": 6,
+   "note": "Mold Changeover on Tue, 06-Oct //  From 13.5BC To 34.0BC",
+   "priority": 1
+  },
+  {
+   "id": "2100001752",
+   "product": "34.0BC1EC-W2-S",
+   "qty": 546480.0,
+   "customer": "SFG",
+   "machine": "IMP07",
+   "start_day": 6,
+   "finish_day": 7,
+   "note": "",
+   "priority": 1
+  },
+  {
+   "id": "4100021954",
+   "product": "26.6TO2RD-CL-B",
+   "qty": 483840.0,
+   "customer": "Al Jomaih Bottling Plant",
+   "machine": "IMP12",
+   "start_day": 0,
+   "finish_day": 1,
+   "note": "Total Requirements = 96 boxes",
+   "priority": 2
+  },
+  {
+   "id": "4100021956",
+   "product": "36.0BC1RD-CJ-S",
+   "qty": 549120.0,
+   "customer": "Aujan Soft Drinks Industries",
+   "machine": "IMP19",
+   "start_day": -1,
+   "finish_day": 1,
+   "note": "",
+   "priority": 2
+  },
+  {
+   "id": "2100001753",
+   "product": "12.7BC1EC-CL-S",
+   "qty": 394272.0,
+   "customer": "SFG",
+   "machine": "IMP24",
+   "start_day": -1,
+   "finish_day": 1,
+   "note": "Total Requirements = 200 crates",
+   "priority": 1
+  },
+  {
+   "id": "4100021952",
+   "product": "9.4TO2RD-BS6-B",
+   "qty": 12436200.0,
+   "customer": "HEALTH WATER BOTTLING COMPANY",
+   "machine": "IMPS01",
+   "start_day": 0,
+   "finish_day": 7,
+   "note": "",
+   "priority": 3
+  },
+  {
+   "id": "4100021953",
+   "product": "9.4TO2RD-BS6-B",
+   "qty": 12436200.0,
+   "customer": "HEALTH WATER BOTTLING COMPANY",
+   "machine": "IMPS02",
+   "start_day": 0,
+   "finish_day": 7,
+   "note": "",
+   "priority": 3
+  },
+  {
+   "id": "4100021999",
+   "product": "30.5PC2RD-CLR-V",
+   "qty": 3568320.0,
+   "customer": "Middle East & North Africa Bev",
+   "machine": "IMPS06",
+   "start_day": 2,
+   "finish_day": 3,
+   "note": "",
+   "priority": 3
+  },
+  {
+   "id": "4100022005",
+   "product": "45.0PC2RD-IGS-B",
+   "qty": 3179520.0,
+   "customer": "International Refreshments Company",
+   "machine": "IMPS07",
+   "start_day": null,
+   "finish_day": null,
+   "note": "Extra",
+   "priority": 1
+  },
+  {
+   "id": "4100022010",
+   "product": "45.0PC2RD-CLS-B",
+   "qty": 635904.0,
+   "customer": "International Refreshments Company",
+   "machine": "IMPS07",
+   "start_day": null,
+   "finish_day": null,
+   "note": "Extra",
+   "priority": 1
+  },
+  {
+   "id": "CAP-29-1.15-2TP-NB-A",
+   "product": "29-1.15-2TP-NB-A",
+   "qty": 5600000.0,
+   "customer": "Sal Factory for Food Products",
+   "machine": "HYELECT1",
+   "start_day": 0,
+   "finish_day": null,
+   "note": "caps balance",
+   "priority": 2
+  },
+  {
+   "id": "CAP-29-1.15-2TP-HG-A",
+   "product": "29-1.15-2TP-HG-A",
+   "qty": 800000.0,
+   "customer": "Arwa Gulf General Trading and",
+   "machine": "HYELECT1",
+   "start_day": 0,
+   "finish_day": null,
+   "note": "caps balance",
+   "priority": 2
+  },
+  {
+   "id": "CAP-29-1.35-2TWOL-AB-A",
+   "product": "29-1.35-2TWOL-AB-A",
+   "qty": 2080000.0,
+   "customer": "Delta Agtia Manufacturing",
+   "machine": "HYCAP1",
+   "start_day": 0,
+   "finish_day": null,
+   "note": "caps balance",
+   "priority": 2
+  },
+  {
+   "id": "CAP-29-1.25-2TP-W1-A",
+   "product": "29-1.25-2TP-W1-A",
+   "qty": 3840000.0,
+   "customer": "AL OYOUN WATER FACTORY",
+   "machine": "HYCAP2",
+   "start_day": 0,
+   "finish_day": null,
+   "note": "caps balance",
+   "priority": 2
+  },
+  {
+   "id": "CAP-29-1.25-2TP-CL-A",
+   "product": "29-1.25-2TP-CL-A",
+   "qty": 3840000.0,
+   "customer": "National Mineral Water Company",
+   "machine": "HYCAP2",
+   "start_day": 0,
+   "finish_day": null,
+   "note": "caps balance",
+   "priority": 2
+  }
+ ],
+ "human_plan": {
+  "IMP01": [
+   "4100021951",
+   "4100021974"
+  ],
+  "IMP07": [
+   "2100001754",
+   "2100001751",
+   "2100001752"
+  ],
+  "IMP12": [
+   "4100021954"
+  ],
+  "IMP19": [
+   "4100021956"
+  ],
+  "IMP24": [
+   "2100001753"
+  ],
+  "IMPS01": [
+   "4100021952"
+  ],
+  "IMPS02": [
+   "4100021953"
+  ],
+  "IMPS06": [
+   "4100021999"
+  ],
+  "IMPS07": [
+   "4100022005",
+   "4100022010"
+  ],
+  "HYELECT1": [
+   "CAP-29-1.15-2TP-NB-A",
+   "CAP-29-1.15-2TP-HG-A"
+  ],
+  "HYCAP1": [
+   "CAP-29-1.35-2TWOL-AB-A"
+  ],
+  "HYCAP2": [
+   "CAP-29-1.25-2TP-W1-A",
+   "CAP-29-1.25-2TP-CL-A"
+  ]
+ },
+ "init_mold": {
+  "IMP01": "M:52.0BC1RD-DB-Z",
+  "IMP07": "M:13.5BC1RD-CL-G",
+  "IMP12": "M:26.6TO2RD-CL-B",
+  "IMP19": "M:36.0BC1RD-CJ-S",
+  "IMP24": "M:12.7BC1EC-CL-S",
+  "IMPS01": "M:9.4TO2RD-BS6-B#1",
+  "IMPS02": "M:9.4TO2RD-BS6-B#1",
+  "IMPS06": "M:30.5PC2RD-CLR-V",
+  "IMPS07": "M:45.0PC2RD-IGS-B",
+  "HYELECT1": "M:29-1.15-2TP-NB-A",
+  "HYCAP1": "M:29-1.35-2TWOL-AB-A",
+  "HYCAP2": "M:29-1.25-2TP-W1-A"
+ },
+ "status_tue_0700": {
+  "IMP07": "Breakdown",
+  "IMP02": "Running 13.5BC1RD-CL-G",
+  "IMP19": "Material runout today"
+ },
+ "tue_breakdown_t": 103,
+ "assumptions": [
+  "Std output (R_Round.StdOut) is treated as pieces per hour; consistent with FinishOn dates for most orders.",
+  "Cavity counts are synthetic (std output / ~850 pcs per cavity-hour, snapped to common sizes).",
+  "Mold-machine compatibility: home machine(s) from Man_Page plus same-family sisters (BC molds -> IMP lines; TO/PC molds -> SIPA lines + IMP12; cap molds -> cap machines). Evidence: 13.5BC mold ran on both IMP07 and IMP02.",
+  "Due date = end of the FinishOn day (undated orders: end of horizon); where the human plan itself overruns that day the due date is moved to plan completion + 12h so that the old plan starts on time.",
+  "Orders listed on two rows with a Thursday row: the Thursday quantity is treated as already produced.",
+  "Priorities: SFG/extra=1, Almarai/Nova/Mena/IRC=3, others=2.",
+  "Changeover hours come from the synthetic ChangeoverModel (mold + colour + resin)."
+ ]
+}

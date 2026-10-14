@@ -1,0 +1,7 @@
+baseline,cases,repair_no_worse_pct,repair_fewer_changes_pct
+do_nothing,600,88.0,10.7
+manual_rule,600,92.5,26.0
+dispatch_edd,600,99.7,96.0
+dispatch_atc,600,98.8,92.7
+full_resolve,600,99.0,89.5
+exact_repair,300,84.0,31.0

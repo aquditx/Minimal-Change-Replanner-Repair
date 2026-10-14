@@ -1,0 +1,8 @@
+method,late_orders,late_qty,plan_changes,runtime_s
+do_nothing,1,108200,0,0.0
+manual_rule,1,502872,2,0.0
+dispatch_edd,4,3472527,12,0.0
+dispatch_atc,5,3863581,9,0.0
+full_resolve,1,20259,4,0.73
+minimal_change_repair,1,20259,2,2.01
+exact_repair,1,20259,2,0.33
